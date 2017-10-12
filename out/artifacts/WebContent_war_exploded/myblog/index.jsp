@@ -56,9 +56,9 @@
             %>
 
 
-            <a class="text-bold text-white" style="text-decoration: none" href="/bloglogin">Sign in</a>
+            <a class="text-bold text-white" style="text-decoration: none" href="/WebClass/bloglogin">Sign in</a>
             <span class="text-bold text-white">&nbsp; or &nbsp;</span>
-            <a class="text-bold text-white" style="text-decoration: none" href="/signup">Sign up</a>
+            <a class="text-bold text-white" style="text-decoration: none" href="/WebClass/signup">Sign up</a>
             <%-- 세션이 있는 경우 --%>
             <%
             } else {
@@ -69,7 +69,7 @@
                   <%=user.getName()+"님" %>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
-                  <form action = "/bloglogout" method="post">
+                  <form action = "/WebClass/bloglogout" method="post">
                     <button type="submit" class="dropdown-item">Sign out</button>
                   </form>
                   <div class="dropdown-divider"></div>
