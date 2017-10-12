@@ -29,7 +29,7 @@
 
       <ul class="sidebar-nav">
 <li><a id="menu-close" href="#" class="btn btn-light">
-  <img src="/WebClass/img/arrow.png" width="50" height="50" alt="arrow">
+  <img src="/WebClass/img/arrow.png" width="50" height="50" alt="arrow" >
   <i class="fa fa-times"></i>
 </a></li>
 
@@ -52,7 +52,7 @@
           <form class="form-inline my-2 my-lg-0" id="SigninForm">
             <%
               UserVO user = (UserVO) session.getAttribute("user");
-              if(user == null) {
+              if(user== null) {
             %>
 
 
