@@ -29,7 +29,7 @@
 
       <ul class="sidebar-nav">
 <li><a id="menu-close" href="#" class="btn btn-light">
-  <img src="/WebClass/img/arrow.png" width="50" height="50" alt="arrow" >
+  <img src="/WebClass/img/arrow.png" width="50" height="50" alt="arrow">
   <i class="fa fa-times"></i>
 </a></li>
 
@@ -48,39 +48,37 @@
         </li>
 
 
-        <li><div class="form-control">
+        <li>
           <form class="form-inline my-2 my-lg-0" id="SigninForm">
             <%
               UserVO user = (UserVO) session.getAttribute("user");
-              if(user== null) {
+              if(user == null) {
             %>
 
 
-            <a class="text-bold text-white" style="text-decoration: none" href="/WebClass/bloglogin">Sign in</a>
-            <span class="text-bold text-white">&nbsp; or &nbsp;</span>
-            <a class="text-bold text-white" style="text-decoration: none" href="/WebClass/signup">Sign up</a>
+            <a class="text-bold text-black" style="text-decoration: none;" href="/WebClass/bloglogin">Sign in</a>
+			</li>
+			<li>
+            <a class="text-bold text-black" style="text-decoration: none;" href="/WebClass/signup">Sign up</a>
             <%-- 세션이 있는 경우 --%>
             <%
             } else {
             %>
-            <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+           <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
               <li class="nav-item dropdown">
                 <a class="nav-item nav-link dropdown-toggle mr-md-2" href="#" id="bd-versions" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <%=user.getName()+"님" %>
+                  <%=user.getName()+"님 환영합니다." %>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="bd-versions">
-                  <form action = "/WebClass/bloglogout" method="post">
-                    <button type="submit" class="dropdown-item">Sign out</button>
-                  </form>
-                  <div class="dropdown-divider"></div>
-                  <button type="button" class="dropdown-item">Action1</button>
-                  <button type="button" class="dropdown-item">Action2</button>
+					<a href="/WebClass/bloglogout">Sign out</a>
+                  <!-- <form action="/WebClass/bloglogout" method="post">
+                  </form> -->
                 </div>
               </li>
             </ul>
             <% } %>
           </form>
-        </div></li>
+        </li>
 
 
 

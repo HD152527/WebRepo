@@ -233,3 +233,7 @@ footer {
     display: none;
     padding: 15px 20px;
 }
+
+.text-black {
+	color: black;
+}

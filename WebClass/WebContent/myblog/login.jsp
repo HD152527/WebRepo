@@ -11,7 +11,7 @@
 	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
 	integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
 	crossorigin="anonymous">
-<link rel="stylesheet" href="/WebClass/WebContent/css/signin.css">
+<link rel="stylesheet" href="/WebClass/css/signin.css">
 </head>
 <body>
 
@@ -23,7 +23,7 @@
 
 			<label for="inputEmail" class="sr-only">Email address</label> <input
 				type="email" name="id" id="inputEmail" class="form-control"
-				placeholder="Email address" required autofocus> <label
+				placeholder="Email address" value="<%= id %>" required autofocus> <label
 				for="inputPassword" class="sr-only">Password</label> <input
 				type="password" name="pwd" id="inputPassword" class="form-control"
 				placeholder="Password" required>
