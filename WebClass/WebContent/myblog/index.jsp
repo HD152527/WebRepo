@@ -16,20 +16,20 @@
     <title>Seung</title>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../css/myblog.css" rel="stylesheet">
+    <link href="/WebClass/css/myblog.css" rel="stylesheet">
   </head>
 
   <!--드래그방지-->
   <body>
    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle">
-     <img src="../img/menu.png" width="30" height="30" alt="menu">
+     <img src="/WebClass/img/menu.png" width="30" height="30" alt="menu">
       <i class="fa fa-bars"></i>
     </a>
     <nav id="sidebar-wrapper">
 
       <ul class="sidebar-nav">
 <li><a id="menu-close" href="#" class="btn btn-light">
-  <img src="../img/arrow.png" width="50" height="50" alt="arrow">
+  <img src="/WebClass/img/arrow.png" width="50" height="50" alt="arrow">
   <i class="fa fa-times"></i>
 </a></li>
 
@@ -98,7 +98,7 @@
     <section id="whoami" class="whoami">
       <div class="container text-center">
         <h2>Who Am I?</h2><br>
-        <img src="../img/13526560214396.png" width="100" height="330" alt="human"><br><br>
+        <img src="/WebClass/img/13526560214396.png" width="100" height="330" alt="human"><br><br>
         <h2>이승규</h2><br>
         <p><strong>출생</strong></p>
           <p>2000년 01월 12일, 광주광역시</p><br>
@@ -121,7 +121,7 @@
               <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
-                    <img src="../img/hs.png" width="120" height="120" alt="hs"><br>
+                    <img src="/WebClass/img/hs.png" width="120" height="120" alt="hs"><br>
                   </span>
                   <h4>
                     <strong>HearthStone</strong>
@@ -133,7 +133,7 @@
               <div class="col-md-3 col-sm-6">
                 <div class="favorites-item">
                   <span class="fa-stack fa-4x">
-                        <img src="../img/ow.png" width="128" height="128" alt="ow"><br>
+                        <img src="/WebClass/img/ow.png" width="128" height="128" alt="ow"><br>
 
                   </span>
                   <h4>
@@ -146,7 +146,7 @@
               <div class="col-md-3 col-sm-6">
                 <div class="favorites-item">
                   <span class="fa-stack fa-4x">
-                     <img src="../img/an.png" width="128" height="128" alt="an"><br>
+                     <img src="/WebClass/img/an.png" width="128" height="128" alt="an"><br>
                   </span>
                   <h4>
                     <strong>Android</strong>
@@ -158,7 +158,7 @@
               <div class="col-md-3 col-sm-6">
                 <div class="favorites-item">
                   <span class="fa-stack fa-4x">
-                      <img src="../img/fn.png" width="110" height="110" alt="fn"><br>
+                      <img src="/WebClass/img/fn.png" width="110" height="110" alt="fn"><br>
                   </span>
                   <h4>
                     <strong>Fitness</strong>
@@ -181,7 +181,7 @@
               <div class="col-md-3 col-sm-6">
                 <div class="service-item">
                   <span class="fa-stack fa-4x">
-                     <img src="../img/naul.jpg" width="128" height="128" alt="naul"><br>
+                     <img src="/WebClass/img/naul.jpg" width="128" height="128" alt="naul"><br>
                   </span><br>
                   <h4>
                     <strong>Naul</strong>
@@ -193,7 +193,7 @@
               <div class="col-md-3 col-sm-6">
                 <div class="favorites-item">
                   <span class="fa-stack fa-4x">
-                      <img src="../img/bruno.jpg" width="128" height="128" alt="bruno"><br>
+                      <img src="/WebClass/img/bruno.jpg" width="128" height="128" alt="bruno"><br>
                   </span><br>
                   <h4>
                     <strong>Bruno Mars</strong>
@@ -205,7 +205,7 @@
               <div class="col-md-3 col-sm-6">
                 <div class="favorites-item">
                   <span class="fa-stack fa-4x">
-                     <img src="../img/stevie.jpg" width="128" height="128" alt="stevie"><br>
+                     <img src="/WebClass/img/stevie.jpg" width="128" height="128" alt="stevie"><br>
                   </span><br>
                   <h4>
                     <strong>Stevie Wonder</strong>
@@ -217,7 +217,7 @@
               <div class="col-md-3 col-sm-6">
                 <div class="favorites-item">
                   <span class="fa-stack fa-4x">
-                      <img src="../img/legend.jpg" width="128" height="128" alt="legend"><br>
+                      <img src="/WebClass/img/legend.jpg" width="128" height="128" alt="legend"><br>
                   </span><br>
                   <h4>
                     <strong>John Legend</strong>
@@ -249,7 +249,7 @@
               <div class="col-md-6">
                 <div class="travel-item">
                   <a href="#">
-                    <img class="img-travel img-fluid" src="../img/t1.jpg" alt="t1">
+                    <img class="img-travel img-fluid" src="/WebClass/img/t1.jpg" alt="t1">
                   </a>
                   Churaumi Aquarium (Okinawam, Japan)
                 </div>
@@ -257,7 +257,7 @@
               <div class="col-md-6">
                 <div class="travel-item">
                   <a href="#">
-                    <img class="img-travel img-fluid" src="../img/t2.jpg" alt="t2">
+                    <img class="img-travel img-fluid" src="/WebClass/img/t2.jpg" alt="t2">
                   </a>
                   Big Ben (London, England)
                 </div>
@@ -265,7 +265,7 @@
               <div class="col-md-6">
                 <div class="travel-item">
                   <a href="#">
-                    <img class="img-travel img-fluid" src="../img/t4.JPG" alt="t3">
+                    <img class="img-travel img-fluid" src="/WebClass/img/t4.JPG" alt="t3">
                   </a>
                   Eiffel Tower (Paris, France)
                 </div>
@@ -273,7 +273,7 @@
               <div class="col-md-6">
                 <div class="travel-item">
                   <a href="#">
-                    <img class="img-travel img-fluid" src="../img/t7.jpg" alt="t4">
+                    <img class="img-travel img-fluid" src="/WebClass/img/t7.jpg" alt="t4">
                   </a>
                   Eiffel Tower at Night (Paris, France)
                 </div>
@@ -281,7 +281,7 @@
               <div class="col-md-6">
                 <div class="travel-item">
                   <a href="#">
-                    <img class="img-travel img-fluid" src="../img/t5.jpg" alt="t">
+                    <img class="img-travel img-fluid" src="/WebClass/img/t5.jpg" alt="t">
                   </a>
                   Arc de triomphe (Paris, France)
                 </div>
@@ -289,7 +289,7 @@
               <div class="col-md-6">
                 <div class="travel-item">
                   <a href="#">
-                    <img class="img-travel img-fluid" src="../img/t6.jpg" alt="">
+                    <img class="img-travel img-fluid" src="/WebClass/img/t6.jpg" alt="">
                   </a>
                   Louvre Museum (Paris, France)
                 </div>
@@ -297,7 +297,7 @@
               <div class="col-md-6">
                 <div class="travel-item">
                   <a href="#">
-                    <img class="img-travel img-fluid" src="../img/t3.JPG" alt="">
+                    <img class="img-travel img-fluid" src="/WebClass/img/t3.JPG" alt="">
                   </a>
                   Tower Bridge (London, England)
                 </div>
@@ -305,7 +305,7 @@
               <div class="col-md-6">
                 <div class="travel-item">
                   <a href="#">
-                    <img class="img-travel img-fluid" src="../img/t10.JPG" alt="">
+                    <img class="img-travel img-fluid" src="/WebClass/img/t10.JPG" alt="">
                   </a>
                   Towns in the Alps (Interaken, Switzerland)
                 </div>
@@ -313,7 +313,7 @@
               <div class="col-md-6">
               <div class="travel-item">
                 <a href="#">
-                  <img class="img-travel img-fluid" src="../img/t8.JPG" alt="">
+                  <img class="img-travel img-fluid" src="/WebClass/img/t8.JPG" alt="">
                 </a>
                 Jungfrau (Interaken, Switzerland)
               </div>
@@ -321,7 +321,7 @@
               <div class="col-md-6">
                 <div class="travel-item">
                   <a href="#">
-                    <img class="img-travel img-fluid" src="../img/t9.JPG" alt="">
+                    <img class="img-travel img-fluid" src="/WebClass/img/t9.JPG" alt="">
                   </a>
                   The Top of Jungfrau (Interaken, Switzerland)
                 </div>
@@ -329,7 +329,7 @@
               <div class="col-md-6">
                 <div class="travel-item">
                   <a href="#">
-                    <img class="img-travel img-fluid" src="../img/t11.jpg" alt="">
+                    <img class="img-travel img-fluid" src="/WebClass/img/t11.jpg" alt="">
                   </a>
                   Milano Duomo (Milano, Italy)
                 </div>
@@ -337,7 +337,7 @@
               <div class="col-md-6">
                 <div class="travel-item">
                   <a href="#">
-                    <img class="img-travel img-fluid" src="../img/t12.JPG" alt="">
+                    <img class="img-travel img-fluid" src="/WebClass/img/t12.JPG" alt="">
                   </a>
                   Venice (Italy)
                 </div>
@@ -345,7 +345,7 @@
               <div class="col-md-6">
                 <div class="travel-item">
                   <a href="#">
-                    <img class="img-travel img-fluid" src="../img/t13.jpg" alt="">
+                    <img class="img-travel img-fluid" src="/WebClass/img/t13.jpg" alt="">
                   </a>
                   Caffé Florian<br>
                   the oldest continuously-operated coffee house in the world.
@@ -355,7 +355,7 @@
               <div class="col-md-6">
                 <div class="travel-item">
                   <a href="#">
-                    <img class="img-travel img-fluid" src="../img/t14.JPG" alt="">
+                    <img class="img-travel img-fluid" src="/WebClass/img/t14.JPG" alt="">
                   </a>
                   Pantheon (Rome, Italy)
                 </div>
@@ -363,7 +363,7 @@
               <div class="col-md-6">
                 <div class="travel-item">
                   <a href="#">
-                    <img class="img-travel img-fluid" src="../img/t15.JPG" alt="">
+                    <img class="img-travel img-fluid" src="/WebClass/img/t15.JPG" alt="">
                   </a>
                   Basilica Scanti Petri (Vatican City)
                 </div>
@@ -371,7 +371,7 @@
               <div class="col-md-6">
                 <div class="travel-item">
                   <a href="#">
-                    <img class="img-travel img-fluid" src="../img/t16.JPG" alt="">
+                    <img class="img-travel img-fluid" src="/WebClass/img/t16.JPG" alt="">
                   </a>
                   Colosseum (Rome, Italy)
                 </div>
@@ -379,7 +379,7 @@
               <div class="col-md-6">
                 <div class="travel-item">
                   <a href="#">
-                    <img class="img-travel img-fluid" src="../img/t17.jpg" alt="">
+                    <img class="img-travel img-fluid" src="/WebClass/img/t17.jpg" alt="">
                   </a>
                   Shinjuku Gyoen National Park (Tokyo, Japan)
                 </div>
@@ -387,7 +387,7 @@
               <div class="col-md-6">
                 <div class="travel-item">
                   <a href="#">
-                    <img class="img-travel img-fluid" src="../img/t18.jpg" alt="">
+                    <img class="img-travel img-fluid" src="/WebClass/img/t18.jpg" alt="">
                   </a>
                   Sensoji (Tokyo, Japan)
                 </div>
@@ -404,10 +404,10 @@
 
             <ul class="list-unstyled">
               <li>
-                <img src="../img/phone.png" width="15" height="15" alt=""/>
+                <img src="/WebClass/img/phone.png" width="15" height="15" alt=""/>
                 +82 10-9221-0812</li>
               <li>
-                <img src="../img/email.png" width="15" height="15" alt=""/>
+                <img src="/WebClass/img/email.png" width="15" height="15" alt=""/>
                 <a href="mailto:name@example.com">lsg000112@gmail.com</a>
               </li>
             </ul>
@@ -415,7 +415,7 @@
             <ul class="list-inline">
               <li class="list-inline-item">
                 <a href="https://www.facebook.com/seunggyu.lee.94/" target="_blank">
-                  <img src="../img/fb.png" width="50" height="50" alt="">
+                  <img src="/WebClass/img/fb.png" width="50" height="50" alt="">
                 </a>
               </li>
             </ul>
@@ -425,7 +425,7 @@
         </div>
       </div>
       <a id="to-top" href="#top" class="btn btn-dark btn-lg js-scroll-trigger">
-        <img src="../img/top.png" width="30" height="30" alt="">
+        <img src="/WebClass/img/top.png" width="30" height="30" alt="">
       </a>
     </footer>
 
@@ -526,7 +526,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="../js/menu.js"></script>
+    <script src="/WebClass/js/menu.js"></script>
     <script src="login.jsp"></script>
 
 
